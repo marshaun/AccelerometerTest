@@ -275,6 +275,7 @@
 				280E16D81526CF3A0017DCC7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

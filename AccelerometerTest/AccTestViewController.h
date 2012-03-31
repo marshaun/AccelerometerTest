@@ -8,6 +8,15 @@
 
 #import <UIKit/UIKit.h>
 
-@interface AccTestViewController : UIViewController
+@interface AccTestViewController : UIViewController <UIAccelerometerDelegate> {
 
+    IBOutlet UILabel* myXLabel;
+    IBOutlet UILabel* myYLabel;
+    IBOutlet UILabel* myZLabel;
+    
+    __weak IBOutlet UIProgressView *myXProgress;
+    __weak IBOutlet UIProgressView *myYProgress;
+    __weak IBOutlet UIProgressView *myZProgress;
+    
+}
 @end
