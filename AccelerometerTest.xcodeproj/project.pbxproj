@@ -1,0 +1,282 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		280E16BD1526CF3A0017DCC7 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 280E16BC1526CF3A0017DCC7 /* UIKit.framework */; };
+		280E16BF1526CF3A0017DCC7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 280E16BE1526CF3A0017DCC7 /* Foundation.framework */; };
+		280E16C11526CF3A0017DCC7 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 280E16C01526CF3A0017DCC7 /* CoreGraphics.framework */; };
+		280E16C71526CF3A0017DCC7 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 280E16C51526CF3A0017DCC7 /* InfoPlist.strings */; };
+		280E16C91526CF3A0017DCC7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 280E16C81526CF3A0017DCC7 /* main.m */; };
+		280E16CD1526CF3A0017DCC7 /* AccTestAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 280E16CC1526CF3A0017DCC7 /* AccTestAppDelegate.m */; };
+		280E16D01526CF3A0017DCC7 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 280E16CE1526CF3A0017DCC7 /* MainStoryboard.storyboard */; };
+		280E16D31526CF3A0017DCC7 /* AccTestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 280E16D21526CF3A0017DCC7 /* AccTestViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		280E16B81526CF3A0017DCC7 /* AccelerometerTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AccelerometerTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		280E16BC1526CF3A0017DCC7 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		280E16BE1526CF3A0017DCC7 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		280E16C01526CF3A0017DCC7 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		280E16C41526CF3A0017DCC7 /* AccelerometerTest-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "AccelerometerTest-Info.plist"; sourceTree = "<group>"; };
+		280E16C61526CF3A0017DCC7 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		280E16C81526CF3A0017DCC7 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		280E16CA1526CF3A0017DCC7 /* AccelerometerTest-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "AccelerometerTest-Prefix.pch"; sourceTree = "<group>"; };
+		280E16CB1526CF3A0017DCC7 /* AccTestAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AccTestAppDelegate.h; sourceTree = "<group>"; };
+		280E16CC1526CF3A0017DCC7 /* AccTestAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AccTestAppDelegate.m; sourceTree = "<group>"; };
+		280E16CF1526CF3A0017DCC7 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		280E16D11526CF3A0017DCC7 /* AccTestViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AccTestViewController.h; sourceTree = "<group>"; };
+		280E16D21526CF3A0017DCC7 /* AccTestViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AccTestViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		280E16B51526CF3A0017DCC7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				280E16BD1526CF3A0017DCC7 /* UIKit.framework in Frameworks */,
+				280E16BF1526CF3A0017DCC7 /* Foundation.framework in Frameworks */,
+				280E16C11526CF3A0017DCC7 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		280E16AD1526CF3A0017DCC7 = {
+			isa = PBXGroup;
+			children = (
+				280E16C21526CF3A0017DCC7 /* AccelerometerTest */,
+				280E16BB1526CF3A0017DCC7 /* Frameworks */,
+				280E16B91526CF3A0017DCC7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		280E16B91526CF3A0017DCC7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				280E16B81526CF3A0017DCC7 /* AccelerometerTest.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		280E16BB1526CF3A0017DCC7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				280E16BC1526CF3A0017DCC7 /* UIKit.framework */,
+				280E16BE1526CF3A0017DCC7 /* Foundation.framework */,
+				280E16C01526CF3A0017DCC7 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		280E16C21526CF3A0017DCC7 /* AccelerometerTest */ = {
+			isa = PBXGroup;
+			children = (
+				280E16CB1526CF3A0017DCC7 /* AccTestAppDelegate.h */,
+				280E16CC1526CF3A0017DCC7 /* AccTestAppDelegate.m */,
+				280E16CE1526CF3A0017DCC7 /* MainStoryboard.storyboard */,
+				280E16D11526CF3A0017DCC7 /* AccTestViewController.h */,
+				280E16D21526CF3A0017DCC7 /* AccTestViewController.m */,
+				280E16C31526CF3A0017DCC7 /* Supporting Files */,
+			);
+			path = AccelerometerTest;
+			sourceTree = "<group>";
+		};
+		280E16C31526CF3A0017DCC7 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				280E16C41526CF3A0017DCC7 /* AccelerometerTest-Info.plist */,
+				280E16C51526CF3A0017DCC7 /* InfoPlist.strings */,
+				280E16C81526CF3A0017DCC7 /* main.m */,
+				280E16CA1526CF3A0017DCC7 /* AccelerometerTest-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		280E16B71526CF3A0017DCC7 /* AccelerometerTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 280E16D61526CF3A0017DCC7 /* Build configuration list for PBXNativeTarget "AccelerometerTest" */;
+			buildPhases = (
+				280E16B41526CF3A0017DCC7 /* Sources */,
+				280E16B51526CF3A0017DCC7 /* Frameworks */,
+				280E16B61526CF3A0017DCC7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AccelerometerTest;
+			productName = AccelerometerTest;
+			productReference = 280E16B81526CF3A0017DCC7 /* AccelerometerTest.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		280E16AF1526CF3A0017DCC7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = AccTest;
+				LastUpgradeCheck = 0430;
+			};
+			buildConfigurationList = 280E16B21526CF3A0017DCC7 /* Build configuration list for PBXProject "AccelerometerTest" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 280E16AD1526CF3A0017DCC7;
+			productRefGroup = 280E16B91526CF3A0017DCC7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				280E16B71526CF3A0017DCC7 /* AccelerometerTest */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		280E16B61526CF3A0017DCC7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				280E16C71526CF3A0017DCC7 /* InfoPlist.strings in Resources */,
+				280E16D01526CF3A0017DCC7 /* MainStoryboard.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		280E16B41526CF3A0017DCC7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				280E16C91526CF3A0017DCC7 /* main.m in Sources */,
+				280E16CD1526CF3A0017DCC7 /* AccTestAppDelegate.m in Sources */,
+				280E16D31526CF3A0017DCC7 /* AccTestViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		280E16C51526CF3A0017DCC7 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				280E16C61526CF3A0017DCC7 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		280E16CE1526CF3A0017DCC7 /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				280E16CF1526CF3A0017DCC7 /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		280E16D41526CF3A0017DCC7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		280E16D51526CF3A0017DCC7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		280E16D71526CF3A0017DCC7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "AccelerometerTest/AccelerometerTest-Prefix.pch";
+				INFOPLIST_FILE = "AccelerometerTest/AccelerometerTest-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		280E16D81526CF3A0017DCC7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "AccelerometerTest/AccelerometerTest-Prefix.pch";
+				INFOPLIST_FILE = "AccelerometerTest/AccelerometerTest-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		280E16B21526CF3A0017DCC7 /* Build configuration list for PBXProject "AccelerometerTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				280E16D41526CF3A0017DCC7 /* Debug */,
+				280E16D51526CF3A0017DCC7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		280E16D61526CF3A0017DCC7 /* Build configuration list for PBXNativeTarget "AccelerometerTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				280E16D71526CF3A0017DCC7 /* Debug */,
+				280E16D81526CF3A0017DCC7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 280E16AF1526CF3A0017DCC7 /* Project object */;
+}
